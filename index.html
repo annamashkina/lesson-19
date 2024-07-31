@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    hello
+    <script>
+      console.log("#1 завдання");
+      function getRandomInt(min, max) {
+        return "your code here";
+      }
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+      console.log(getRandomInt(1, 10));
+      console.log(getRandomInt(40, 50));
+      console.log(getRandomInt(1, 100));
+    </script>
+    <script>
+      function greet(msg, name) {
+        return msg + ", " + name;
+      }
+      console.log(greet("Hi", "John"));
+      console.log(greet("Hey", "Bob"));
+      console.log(greet("Hello", "Mary"));
+    </script>
+    <script>
+      console.log("#3 завдання");
+      function sumBigIntegers(numStr1, numStr2) {
+        const bigInt1 = BigInt(numStr1);
+        const bigInt2 = BigInt(numStr2);
+
+        const sum = bigInt1 + bigInt2;
+        return sum.toString();
+      }
+      const result = sumBigIntegers("123456789123456789", "987654321987654321");
+      console.log(result);
+    </script>
+  </body>
+</html>
